@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0b2434;
+  padding: 20px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.app {
+  background-color: rgb(161, 108, 214);
+  height: 90vh;
+  max-width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.die {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: mintcream;
+}
+.die-row {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+.rolldice-btn {
+  margin-top: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  left: 36.34%;
+  right: 35.99%;
+  top: 72.67%;
+  bottom: 16.56%;
+  height: 40px;
+  width: 100px;
+  background: #5035ff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  border: none;
+  cursor: pointer;
+}
+.rolldice-btn:focus {
+  outline: none;
+}
+
+.rolldice-btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.held {
+  background-color: #59e391;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.heading {
+  position: relative;
+  font-size: 30px;
+}
+p {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: blanchedalmond;
+  }
+}
+
+p {
+  -webkit-animation: color-change 3s infinite;
+  -moz-animation: color-change 3s infinite;
+  -o-animation: color-change 3s infinite;
+  -ms-animation: color-change 3s infinite;
+  animation: color-change 3s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: blanchedalmond;
+  }
+}
+@-moz-keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: blanchedalmond;
+  }
+}
+@-ms-keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: blanchedalmond;
+  }
+}
+@-o-keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: blanchedalmond;
+  }
+}
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: blanchedalmond;
+  }
+}
